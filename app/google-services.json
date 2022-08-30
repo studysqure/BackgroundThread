@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "479343556546",
+    "project_id": "ironbazar118",
+    "storage_bucket": "ironbazar118.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479343556546:android:9e5511aa16106a0d7ec85b",
+        "android_client_info": {
+          "package_name": "com.soninsony.backgroundthread"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "479343556546-nvks3sprcqkdegjs0d77u0k3muo192ek.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuZ-VUhYzoLCaUwv-tuSOQFlWKY0dPU0A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "479343556546-nvks3sprcqkdegjs0d77u0k3muo192ek.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479343556546:android:5372a27b890d92f97ec85b",
+        "android_client_info": {
+          "package_name": "com.sonisony.ironbazar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "479343556546-nvks3sprcqkdegjs0d77u0k3muo192ek.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuZ-VUhYzoLCaUwv-tuSOQFlWKY0dPU0A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "479343556546-nvks3sprcqkdegjs0d77u0k3muo192ek.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

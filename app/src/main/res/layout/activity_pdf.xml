@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/ll_lyt"
+    android:paddingStart="15dp"
+    android:paddingEnd="15dp"
+    tools:context=".PDfActivity">
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="140dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:text="TO WHOM-SO-EVER IT MAY CONCERN" />
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/black"
+            android:textSize="11sp"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:text="Ref. No:"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/black"
+            android:textSize="11sp"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:textStyle="normal"
+            android:text="DSF/2022/0007" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/black"
+            android:textSize="11sp"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:text="Date: "/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/black"
+            android:textSize="11sp"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:textStyle="normal"
+            android:text="09-feb-2022" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:textSize="11sp"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:textStyle="normal"
+        android:text="To," />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:textSize="11sp"
+        android:gravity="center"
+        android:layout_marginTop="4dp"
+        android:textStyle="bold"
+        android:text="Mr.Shubham Soni," />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:textSize="11sp"
+        android:gravity="center"
+        android:layout_marginTop="4dp"
+        android:textStyle="normal"
+        android:text="Address: 4495/56, Vallabh Nagar," />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:textSize="11sp"
+        android:gravity="center"
+        android:layout_marginTop="4dp"
+        android:textStyle="normal"
+        android:text="Pachpedi Naka Raipur(C.G.)"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:textSize="11sp"
+        android:gravity="center"
+        android:layout_marginTop="18dp"
+        android:textStyle="normal"
+        android:text="Dear Shubham Soni,"/>
+
+    <com.codesgood.views.JustifiedTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:textSize="11sp"
+        android:layout_marginTop="4dp"
+        android:textStyle="normal"
+        android:textScaleX="1"
+        android:text="@string/string_one"/>
+
+    <com.codesgood.views.JustifiedTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:textSize="11sp"
+        android:layout_marginTop="4dp"
+        android:textStyle="normal"
+        android:text="He is leaving job only on his own decision and for attempting opportunities with a batter profile."/>
+
+    <com.codesgood.views.JustifiedTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:textSize="11sp"
+        android:layout_marginTop="4dp"
+        android:textStyle="normal"
+        android:text="We wish him all the best in his future endeavors."/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:gravity="center"
+                android:layout_marginTop="4dp"
+                android:textStyle="bold"
+                android:text="Sincerely," />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:gravity="center"
+                android:layout_marginTop="4dp"
+                android:textStyle="bold"
+                android:text="Sourabh Dubey," />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:gravity="center"
+                android:layout_marginTop="4dp"
+                android:textStyle="bold"
+                android:text="Founder / Director," />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:gravity="center"
+                android:layout_marginTop="4dp"
+                android:textStyle="bold"
+                android:text="Dharam Software Foundation," />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:gravity="center"
+                android:layout_marginTop="4dp"
+                android:textStyle="bold"
+                android:text="Raipur (C.G.)" />
+
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="end">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/dsf_ss" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="Signature"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="61dp"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
