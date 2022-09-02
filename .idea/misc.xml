@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroSHUBHAM/GithubDummy/BackgroundThread/app/src/main/res/layout/activity_latter_pad.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroSHUBHAM/GithubDummy/BackgroundThread/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroSHUBHAM/GithubDummy/BackgroundThread/app/src/main/res/layout/activity_pdf.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroSHUBHAM/GithubDummy/BackgroundThread/app/src/main/res/layout/latter_matter_layout.xml" value="0.253125" />
         <entry key="..\:/BackgroundThread/app/src/main/res/font/arial_bold.xml" value="0.25416666666666665" />
         <entry key="..\:/BackgroundThread/app/src/main/res/layout/activity_latter_pad.xml" value="0.22395833333333334" />
         <entry key="..\:/BackgroundThread/app/src/main/res/layout/activity_main.xml" value="0.2074074074074074" />
@@ -10,7 +14,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

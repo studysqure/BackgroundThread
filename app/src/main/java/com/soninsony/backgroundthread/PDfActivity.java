@@ -28,9 +28,7 @@ public class PDfActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pdf);
-//        genRate();
-
-
+        genRate();
 
     }
 
@@ -44,20 +42,19 @@ public class PDfActivity extends AppCompatActivity {
 
         PdfGenerator.getBuilder()
                 .setContext(PDfActivity.this)
-                .fromLayoutXMLSource()
-                .fromLayoutXML(R.layout.activity_pdf)
+                .fromViewIDSource()
+                .fromViewID(PDfActivity.this,R.id.ll_latter_pad)
+//                .fromLayoutXMLSource()
+//                .fromLayoutXML(R.layout.activity_pdf)
 //                .fromViewSource()
 //                .fromView(findViewById(R.id.ll_lyt))
                 /* "fromLayoutXML()" takes array of layout resources.
                  * You can also invoke "fromLayoutXMLList()" method here which takes list of layout resources instead of array. */
                 .setFileName("Test-PDF")
                 /* It is file name */
-                .setFolderName("FolderA/FolderB/FolderC")
-                /* It is folder name. If you set the folder name like this pattern (FolderA/FolderB/FolderC), then
-                 * FolderA creates first.Then FolderB inside FolderB and also FolderC inside the FolderB and finally
-                 * the pdf file named "Test-PDF.pdf" will be store inside the FolderB. */
-                .openPDFafterGeneration(true)
-                /* It true then the generated pdf will be shown after generated. */
+                .setFolderNameOrPath("FolderA/FolderB/FolderC")
+                .actionAfterPDFGeneration(PdfGenerator.ActionAfterPDFGeneration.OPEN)
+                .setPrintingMode(PdfGenerator.PrintingMode.PORTRAIT)
                 .build(new PdfGeneratorListener() {
                     @Override
                     public void onFailure(FailureResponse failureResponse) {
